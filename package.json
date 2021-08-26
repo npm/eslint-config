@@ -1,0 +1,33 @@
+{
+  "name": "@npmcli/eslint-config",
+  "version": "1.0.0",
+  "description": "eslint config used by the npm cli team",
+  "main": "lib/index.js",
+  "scripts": {
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "prepublishOnly": "git push origin --follow-tags",
+    "snap": "tap",
+    "test": "tap"
+  },
+  "files": ["lib", "bin"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/eslint-config.git"
+  },
+  "keywords": [
+    "npm",
+    "oss"
+  ],
+  "author": "GitHub Inc.",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">= 7",
+    "eslint-plugin-node": "^11.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-node": "^11.1.0",
+    "tap": "^15.0.9"
+  }
+}
