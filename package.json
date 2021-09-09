@@ -1,6 +1,6 @@
 {
   "name": "@npmcli/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint config used by the npm cli team",
   "main": "lib/index.js",
   "scripts": {
@@ -10,7 +10,10 @@
     "snap": "tap",
     "test": "tap"
   },
-  "files": ["lib", "bin"],
+  "files": [
+    "lib",
+    "bin"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/npm/eslint-config.git"
