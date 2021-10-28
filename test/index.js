@@ -1,17 +1,25 @@
-const { CLIEngine } = require('eslint')
+const { ESLint: ESLint8 } = require('eslint')
+const { ESLint: ESLint7 } = require('eslint7')
 const t = require('tap')
 
-t.test('config loads correctly', async (t) => {
-  const code = `const foo = 1
+const code = `const foo = 1
 const bar = function () {}
 bar(foo)
 `
 
-  const engine = new CLIEngine({
-    useEslintrc: false,
-    configFile: 'lib/index.js', // this is relative to the root of the repo
+t.test('config loads correctly', t => {
+  const loadConfig = (desc, ctor) => t.test(async t => {
+    const engine = new ctor({
+      useEslintrc: false,
+      overrideConfigFile: 'lib/index.js', // this is relative to the root of the repo
+    })
+  
+    const [result] = await engine.lintText(code)
+    t.equal(result.errorCount, 0, 'no errors')
   })
 
-  const result = engine.executeOnText(code)
-  t.equal(result.errorCount, 0, 'had no errors')
+  t.plan(2)
+  loadConfig('eslint 7', ESLint7)
+  loadConfig('eslint 8', ESLint8)
+  t.end()
 })
