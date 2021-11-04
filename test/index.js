@@ -8,12 +8,12 @@ bar(foo)
 `
 
 t.test('config loads correctly', t => {
-  const loadConfig = (desc, ctor) => t.test(async t => {
-    const engine = new ctor({
+  const loadConfig = (desc, Ctor) => t.test(async t => {
+    const engine = new Ctor({
       useEslintrc: false,
       overrideConfigFile: 'lib/index.js', // this is relative to the root of the repo
     })
-  
+
     const [result] = await engine.lintText(code)
     t.equal(result.errorCount, 0, 'no errors')
   })
