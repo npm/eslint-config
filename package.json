@@ -3,16 +3,23 @@
   "version": "1.0.2",
   "description": "eslint config used by the npm cli team",
   "main": "lib/index.js",
+  "bin": {
+    "lint": "bin/index.js"
+  },
   "scripts": {
     "preversion": "npm test",
     "postversion": "npm publish",
     "prepublishOnly": "git push origin --follow-tags",
     "snap": "tap",
-    "test": "tap"
+    "test": "tap",
+    "lint": "eslint '**/*.js'",
+    "postlint": "npm-template-check",
+    "lintfix": "npm run lint -- --fix",
+    "posttest": "npm run lint"
   },
   "files": [
-    "lib",
-    "bin"
+    "bin",
+    "lib"
   ],
   "repository": {
     "type": "git",
@@ -29,9 +36,17 @@
     "eslint-plugin-node": "^11.1.0"
   },
   "devDependencies": {
+    "@npmcli/template-oss": "^2.2.0",
     "eslint": "^8.1.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint7": "npm:eslint@^7.32.0",
     "tap": "^15.0.9"
+  },
+  "dependencies": {
+    "which": "^2.0.2"
+  },
+  "templateVersion": "2.2.0",
+  "engines": {
+    "node": "^12.13.0 || ^14.15.0 || >=16"
   }
 }

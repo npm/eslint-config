@@ -26,3 +26,13 @@ module.exports = {
 
 This allows any overrides for a project to exist in a separate file, typically
 `.eslintrc.local.json`.
+
+#### `bin`
+
+This module also contains a bin script that will run `eslint` with the bundled config.
+
+```
+npm i -D @npmcli/eslint-config
+
+# lint with our style rules
+npx @npmcli/eslint-config -- # any args to eslint go here...`
