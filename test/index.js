@@ -1,5 +1,4 @@
 const { ESLint: ESLint8 } = require('eslint')
-const { ESLint: ESLint7 } = require('eslint7')
 const t = require('tap')
 
 const code = `const foo = 1
@@ -18,8 +17,7 @@ t.test('config loads correctly', t => {
     t.equal(result.errorCount, 0, 'no errors')
   })
 
-  t.plan(2)
-  loadConfig('eslint 7', ESLint7)
+  t.plan(1)
   loadConfig('eslint 8', ESLint8)
   t.end()
 })
