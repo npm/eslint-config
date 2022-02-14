@@ -36,8 +36,8 @@ const runIndex = (t, ...args) => {
   })
   t.mock('../bin/index.js', {
     child_process: {
-      spawnSync: (cmd, args, options) => {
-        SPAWN_CALLED = [cmd, args, options]
+      spawnSync: (...spawnArgs) => {
+        SPAWN_CALLED = spawnArgs
         return { exitCode: SPAWN_EXITCODE }
       },
     },
