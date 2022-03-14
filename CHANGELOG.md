@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.1](https://www.github.com/npm/eslint-config/compare/v3.0.0...v3.0.1) (2022-03-14)
+
+
+### Bug Fixes
+
+* ignore tap-snapshots from linting ([#21](https://www.github.com/npm/eslint-config/issues/21)) ([eb127fc](https://www.github.com/npm/eslint-config/commit/eb127fc366aadde588e192f6adefd6f224dfb8d1))
+
 ## [3.0.0](https://www.github.com/npm/eslint-config/compare/v2.0.0...v3.0.0) (2022-02-14)
 
 
