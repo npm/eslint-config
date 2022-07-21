@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/npm/eslint-config/compare/v3.0.1...v3.1.0) (2022-07-21)
+
+
+### Features
+
+* add import, promise, and recommended rules ([#34](https://github.com/npm/eslint-config/issues/34)) ([e1c01fd](https://github.com/npm/eslint-config/commit/e1c01fd5ab6f53c8d307a00263f5388cee2c194c))
+
 ### [3.0.1](https://www.github.com/npm/eslint-config/compare/v3.0.0...v3.0.1) (2022-03-14)
 
 
