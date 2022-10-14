@@ -1,5 +1,15 @@
 # Changelog
 
+## [4.0.0](https://github.com/npm/eslint-config/compare/v3.1.0...v4.0.0) (2022-10-10)
+
+### ⚠️ BREAKING CHANGES
+
+* `@npmcli/eslint-config` is now compatible with the following semver range for node: `^14.17.0 || ^16.13.0 || >=18.0.0`
+
+### Features
+
+* [`aacbd69`](https://github.com/npm/eslint-config/commit/aacbd69cc05e6c9b5b9bdf14f8389af65dfceecb) [#47](https://github.com/npm/eslint-config/pull/47) postinstall for dependabot template-oss PR (@lukekarrys)
+
 ## [3.1.0](https://github.com/npm/eslint-config/compare/v3.0.1...v3.1.0) (2022-07-21)
 
 
