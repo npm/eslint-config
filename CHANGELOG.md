@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.1](https://github.com/npm/eslint-config/compare/v4.0.0...v4.0.1) (2022-11-03)
+
+### Dependencies
+
+* [`d1336c9`](https://github.com/npm/eslint-config/commit/d1336c9e7ed63325a709992c20884c6f921ee32b) [#56](https://github.com/npm/eslint-config/pull/56) bump which from 2.0.2 to 3.0.0
+
 ## [4.0.0](https://github.com/npm/eslint-config/compare/v3.1.0...v4.0.0) (2022-10-10)
 
 ### ⚠️ BREAKING CHANGES
