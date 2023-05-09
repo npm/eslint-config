@@ -48,7 +48,8 @@
       "eslint-plugin-node",
       "eslint-plugin-import",
       "eslint-plugin-promise"
-    ]
+    ],
+    "publish": "true"
   },
   "peerDependencies": {
     "eslint": "^8.13.0",
