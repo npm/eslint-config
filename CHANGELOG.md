@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.2](https://github.com/npm/eslint-config/compare/v4.0.1...v4.0.2) (2023-05-09)
+
+### Bug Fixes
+
+* [`653976f`](https://github.com/npm/eslint-config/commit/653976fcac5fe68e8de292844f95482849b83b46) [#67](https://github.com/npm/eslint-config/pull/67) do not allow importing dev deps from lib/bin (#67) (@tjenkinson)
+
 ## [4.0.1](https://github.com/npm/eslint-config/compare/v4.0.0...v4.0.1) (2022-11-03)
 
 ### Dependencies
