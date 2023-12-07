@@ -1,5 +1,22 @@
 # Changelog
 
+## [4.0.3](https://github.com/npm/eslint-config/compare/v4.0.2...v4.0.3) (2023-12-07)
+
+### Chores
+
+* [`82484a5`](https://github.com/npm/eslint-config/commit/82484a533af4eaa3c6c9673c46cfd1d5ef48ab50) [#98](https://github.com/npm/eslint-config/pull/98) postinstall for dependabot template-oss PR (@lukekarrys)
+* [`c765633`](https://github.com/npm/eslint-config/commit/c7656332d34217e5713dc11c1ef62f142e8d2de5) [#98](https://github.com/npm/eslint-config/pull/98) bump @npmcli/template-oss from 4.21.1 to 4.21.3 (@dependabot[bot])
+* [`3704d59`](https://github.com/npm/eslint-config/commit/3704d59b7e6a3bd541e48af35f091f611bf45d0f) [#95](https://github.com/npm/eslint-config/pull/95) postinstall for dependabot template-oss PR (@lukekarrys)
+* [`c137125`](https://github.com/npm/eslint-config/commit/c1371253aac9e7eab630bbf23cdb095cee656508) [#95](https://github.com/npm/eslint-config/pull/95) bump @npmcli/template-oss from 4.19.0 to 4.21.1 (@dependabot[bot])
+* [`4540676`](https://github.com/npm/eslint-config/commit/4540676a275ba18afcaf16ef24a962ae56771e25) [#76](https://github.com/npm/eslint-config/pull/76) postinstall for dependabot template-oss PR (@lukekarrys)
+* [`7c2757f`](https://github.com/npm/eslint-config/commit/7c2757faaebd6cf691be2e99cbbd4339a66c7fe4) [#76](https://github.com/npm/eslint-config/pull/76) bump @npmcli/template-oss from 4.18.1 to 4.19.0 (@dependabot[bot])
+* [`45d13a5`](https://github.com/npm/eslint-config/commit/45d13a53343168d977b94dcefa8b701743175933) [#75](https://github.com/npm/eslint-config/pull/75) postinstall for dependabot template-oss PR (@lukekarrys)
+* [`7032111`](https://github.com/npm/eslint-config/commit/7032111f0cab50ffe34e3cb981970a81c9a8aeaf) [#75](https://github.com/npm/eslint-config/pull/75) bump @npmcli/template-oss from 4.18.0 to 4.18.1 (@dependabot[bot])
+* [`2dd5976`](https://github.com/npm/eslint-config/commit/2dd597656a038fa149b32868193bcfb9e93ec494) [#73](https://github.com/npm/eslint-config/pull/73) postinstall for dependabot template-oss PR (@lukekarrys)
+* [`d0fc181`](https://github.com/npm/eslint-config/commit/d0fc181285bb9bfaae6eafbc608f31b0679ecb3f) [#73](https://github.com/npm/eslint-config/pull/73) bump @npmcli/template-oss from 4.17.0 to 4.18.0 (@dependabot[bot])
+* [`0d5e9c1`](https://github.com/npm/eslint-config/commit/0d5e9c171fcee11e7a5b37330f1866672f5a36c7) [#71](https://github.com/npm/eslint-config/pull/71) postinstall for dependabot template-oss PR (@lukekarrys)
+* [`e310707`](https://github.com/npm/eslint-config/commit/e310707d1ef323e274f238860134cbaf15a6d3f6) [#71](https://github.com/npm/eslint-config/pull/71) bump @npmcli/template-oss from 4.15.1 to 4.17.0 (@dependabot[bot])
+
 ## [4.0.2](https://github.com/npm/eslint-config/compare/v4.0.1...v4.0.2) (2023-05-09)
 
 ### Bug Fixes
