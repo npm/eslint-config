@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.0.3](https://github.com/npm/eslint-config/compare/v4.0.2...v4.0.3) (2024-04-21)
+
+### Bug Fixes
+
+* [`acd463d`](https://github.com/npm/eslint-config/commit/acd463dfb7637118d8d6fe4690d743d17d771d96) [#103](https://github.com/npm/eslint-config/pull/103) set args to after-used for no-unused-vars rule (#103) (@lukekarrys)
+* [`436f26c`](https://github.com/npm/eslint-config/commit/436f26cc248b10126abcb992fd9c5b69418d51ca) [#102](https://github.com/npm/eslint-config/pull/102) don't enforce max-len on comments (#102) (@wraithgar)
+
+### Chores
+
+* [`f2706f7`](https://github.com/npm/eslint-config/commit/f2706f72b75d4b59a2cb11c228832d6b4eed8252) [#104](https://github.com/npm/eslint-config/pull/104) postinstall for dependabot template-oss PR (@lukekarrys)
+* [`511b2b7`](https://github.com/npm/eslint-config/commit/511b2b7d123e383126b7e719f00f0d72b189c370) [#104](https://github.com/npm/eslint-config/pull/104) bump @npmcli/template-oss from 4.21.3 to 4.21.4 (@dependabot[bot])
+
 ## [4.0.2](https://github.com/npm/eslint-config/compare/v4.0.1...v4.0.2) (2023-05-09)
 
 ### Bug Fixes
