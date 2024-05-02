@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.4](https://github.com/npm/eslint-config/compare/v4.0.3...v4.0.4) (2024-05-02)
+
+### Bug Fixes
+
+* [`0a04d04`](https://github.com/npm/eslint-config/commit/0a04d043f34cd741e325dc567a20ebc32313fc65) [#105](https://github.com/npm/eslint-config/pull/105) set no-console rule in all lib/ files (@lukekarrys)
+
 ## [4.0.3](https://github.com/npm/eslint-config/compare/v4.0.2...v4.0.3) (2024-04-21)
 
 ### Bug Fixes
