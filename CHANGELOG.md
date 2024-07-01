@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.5](https://github.com/npm/eslint-config/compare/v4.0.4...v4.0.5) (2024-07-01)
+
+### Bug Fixes
+
+* [`975e40c`](https://github.com/npm/eslint-config/commit/975e40c1b61ef09b180456d6e06ef2a886d13be3) [#114](https://github.com/npm/eslint-config/pull/114) remove import/no-unresolved (#114) (@wraithgar)
+
+### Chores
+
+* [`567d258`](https://github.com/npm/eslint-config/commit/567d25825811c2ec7d61da0b4dc5c5ccb90cb6d0) [#108](https://github.com/npm/eslint-config/pull/108) bump @npmcli/template-oss to 4.22.0 (@lukekarrys)
+* [`a92c2a3`](https://github.com/npm/eslint-config/commit/a92c2a3799dda5a9dd8618a1bc6b2bf4c2168ccd) [#108](https://github.com/npm/eslint-config/pull/108) postinstall for dependabot template-oss PR (@lukekarrys)
+
 ## [4.0.4](https://github.com/npm/eslint-config/compare/v4.0.3...v4.0.4) (2024-05-02)
 
 ### Bug Fixes
