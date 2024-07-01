@@ -1,6 +1,6 @@
 {
   "name": "@npmcli/eslint-config",
-  "version": "4.0.4",
+  "version": "4.0.5",
   "description": "eslint config used by the npm cli team",
   "main": "lib/index.js",
   "bin": {
