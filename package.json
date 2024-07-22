@@ -9,11 +9,12 @@
   "scripts": {
     "snap": "tap",
     "test": "tap",
-    "lint": "eslint \"**/*.{js,cjs,ts,mjs,jsx,tsx}\"",
+    "lint": "npm run eslint",
     "postlint": "template-oss-check",
-    "lintfix": "npm run lint -- --fix",
+    "lintfix": "npm run eslint -- --fix",
     "posttest": "npm run lint",
-    "template-oss-apply": "template-oss-apply --force"
+    "template-oss-apply": "template-oss-apply --force",
+    "eslint": "eslint \"**/*.{js,cjs,ts,mjs,jsx,tsx}\""
   },
   "files": [
     "bin/",
@@ -30,7 +31,7 @@
   "author": "GitHub Inc.",
   "license": "ISC",
   "devDependencies": {
-    "@npmcli/eslint-config": "^4.0.2",
+    "@npmcli/eslint-config": "^4.0.5",
     "@npmcli/template-oss": "4.23.1",
     "tap": "^16.0.1"
   },
@@ -42,7 +43,7 @@
   },
   "templateOSS": {
     "//@npmcli/template-oss": "This file is partially managed by @npmcli/template-oss. Edits may be overwritten.",
-    "version": "4.22.0",
+    "version": "4.23.1",
     "allowedPackages": [
       "eslint",
       "eslint-plugin-node",
