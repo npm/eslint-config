@@ -1,5 +1,24 @@
 # Changelog
 
+## [5.0.0](https://github.com/npm/eslint-config/compare/v4.0.5...v5.0.0) (2024-08-26)
+
+### ⚠️ BREAKING CHANGES
+
+* `@npmcli/eslint-config` now supports node `^18.17.0 || >=20.5.0`
+
+### Bug Fixes
+
+* [`043dafe`](https://github.com/npm/eslint-config/commit/043dafe1ae35ae629d1e7ad9032bda93c3bb019b) [#123](https://github.com/npm/eslint-config/pull/123) align to npm 10 node engine range (@hashtagchris)
+
+### Dependencies
+
+* [`e8a836b`](https://github.com/npm/eslint-config/commit/e8a836b156e8906724a05aa07d3ae8cd70e670ee) [#123](https://github.com/npm/eslint-config/pull/123) `which@4.0.0`
+
+### Chores
+
+* [`963a8f7`](https://github.com/npm/eslint-config/commit/963a8f75ac84979dc7041a6afb83a468454f73ec) [#123](https://github.com/npm/eslint-config/pull/123) run template-oss-apply (@hashtagchris)
+* [`f20c1be`](https://github.com/npm/eslint-config/commit/f20c1be2af3e7ecf9b4513520693cdc7512366e7) [#119](https://github.com/npm/eslint-config/pull/119) bump @npmcli/template-oss from 4.22.0 to 4.23.1 (#119) (@dependabot[bot], @hashtagchris)
+
 ## [4.0.5](https://github.com/npm/eslint-config/compare/v4.0.4...v4.0.5) (2024-07-01)
 
 ### Bug Fixes
