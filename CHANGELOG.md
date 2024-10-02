@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.0.1](https://github.com/npm/eslint-config/compare/v5.0.0...v5.0.1) (2024-10-02)
+### Dependencies
+* [`6f3160b`](https://github.com/npm/eslint-config/commit/6f3160bd4fcd54d68e51d3d423a690be9a7888f6) [#127](https://github.com/npm/eslint-config/pull/127) bump `which@5.0.0`
+### Chores
+* [`107ba24`](https://github.com/npm/eslint-config/commit/107ba246689b3ed45f13e5e0ddfca78ecbd27d73) [#125](https://github.com/npm/eslint-config/pull/125) postinstall for dependabot template-oss PR (@hashtagchris)
+* [`6026e29`](https://github.com/npm/eslint-config/commit/6026e29528fb5a0b885ae8abd12e279f3decdd25) [#125](https://github.com/npm/eslint-config/pull/125) bump @npmcli/template-oss from 4.23.2 to 4.23.3 (@dependabot[bot])
+
 ## [5.0.0](https://github.com/npm/eslint-config/compare/v4.0.5...v5.0.0) (2024-08-26)
 
 ### ⚠️ BREAKING CHANGES
