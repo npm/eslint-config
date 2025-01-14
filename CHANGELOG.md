@@ -1,5 +1,11 @@
 # Changelog
 
+## [5.1.0](https://github.com/npm/eslint-config/compare/v5.0.1...v5.1.0) (2025-01-14)
+### Features
+* [`2280969`](https://github.com/npm/eslint-config/commit/228096947957416d52918223ea7af4e9c8f22380) [#130](https://github.com/npm/eslint-config/pull/130) max-len: broaden ignore list (#130) (@wraithgar)
+### Chores
+* [`15cc5ea`](https://github.com/npm/eslint-config/commit/15cc5ea6b36f439bd70256a79fdac12d3f93604e) [#129](https://github.com/npm/eslint-config/pull/129) bump @npmcli/template-oss from 4.23.3 to 4.23.4 (#129) (@dependabot[bot], @npm-cli-bot)
+
 ## [5.0.1](https://github.com/npm/eslint-config/compare/v5.0.0...v5.0.1) (2024-10-02)
 ### Dependencies
 * [`6f3160b`](https://github.com/npm/eslint-config/commit/6f3160bd4fcd54d68e51d3d423a690be9a7888f6) [#127](https://github.com/npm/eslint-config/pull/127) bump `which@5.0.0`
