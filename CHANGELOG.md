@@ -1,5 +1,14 @@
 # Changelog
 
+## [6.0.0](https://github.com/npm/eslint-config/compare/v5.1.0...v6.0.0) (2025-10-23)
+### ⚠️ BREAKING CHANGES
+* `@npmcli/eslint-config` now supports node `^20.17.0 || >=22.9.0`
+### Bug Fixes
+* [`9e5befa`](https://github.com/npm/eslint-config/commit/9e5befa9e9764bb931292c1a6c2a5ea8ad271031) [#140](https://github.com/npm/eslint-config/pull/140) align to npm 11 node engine range (@owlstronaut)
+### Chores
+* [`185658d`](https://github.com/npm/eslint-config/commit/185658dc7fca59428644996e0aaff3c2c81a4790) [#140](https://github.com/npm/eslint-config/pull/140) template-oss-apply (@owlstronaut)
+* [`c2ff34d`](https://github.com/npm/eslint-config/commit/c2ff34d908589fca3c571e51b071f17cbb11089b) [#139](https://github.com/npm/eslint-config/pull/139) bump @npmcli/template-oss from 4.26.0 to 4.27.1 (#139) (@dependabot[bot], @npm-cli-bot)
+
 ## [5.1.0](https://github.com/npm/eslint-config/compare/v5.0.1...v5.1.0) (2025-01-14)
 ### Features
 * [`2280969`](https://github.com/npm/eslint-config/commit/228096947957416d52918223ea7af4e9c8f22380) [#130](https://github.com/npm/eslint-config/pull/130) max-len: broaden ignore list (#130) (@wraithgar)
