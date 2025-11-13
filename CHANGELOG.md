@@ -1,5 +1,11 @@
 # Changelog
 
+## [6.0.1](https://github.com/npm/eslint-config/compare/v6.0.0...v6.0.1) (2025-11-13)
+### Dependencies
+* [`52da10a`](https://github.com/npm/eslint-config/commit/52da10a73321e3b25904c17d6c2aa1efb73bf311) [#143](https://github.com/npm/eslint-config/pull/143) bump which from 5.0.0 to 6.0.0 (#143) (@dependabot[bot])
+### Chores
+* [`46f7a17`](https://github.com/npm/eslint-config/commit/46f7a17e2ccfb5e65e2943b3be590b78de8622fa) [#142](https://github.com/npm/eslint-config/pull/142) bump @npmcli/template-oss from 4.27.1 to 4.28.0 (#142) (@dependabot[bot], @npm-cli-bot)
+
 ## [6.0.0](https://github.com/npm/eslint-config/compare/v5.1.0...v6.0.0) (2025-10-23)
 ### ⚠️ BREAKING CHANGES
 * `@npmcli/eslint-config` now supports node `^20.17.0 || >=22.9.0`
