@@ -1,5 +1,19 @@
 # Changelog
 
+## [7.0.0](https://github.com/npm/eslint-config/compare/v6.0.1...v7.0.0) (2026-05-15)
+### ⚠️ BREAKING CHANGES
+* `@npmcli/eslint-config` now supports node `^22.22.2 || ^24.15.0 || >=26.0.0`
+* template-oss-apply
+### Features
+* [`cff17a7`](https://github.com/npm/eslint-config/commit/cff17a77ceefd23fbd31f8a756e0904326b9a54c) [#154](https://github.com/npm/eslint-config/pull/154) bump to new node engine range (@owlstronaut)
+* [`2c974ce`](https://github.com/npm/eslint-config/commit/2c974ce55bfc053bb0c2dee1cb58666b85aee188) [#154](https://github.com/npm/eslint-config/pull/154) template-oss-apply (@owlstronaut)
+### Dependencies
+* [`4acc61f`](https://github.com/npm/eslint-config/commit/4acc61fd15df03794fbd9074bb46083f945954ee) [#154](https://github.com/npm/eslint-config/pull/154) `which@7.0.0`
+### Chores
+* [`766a451`](https://github.com/npm/eslint-config/commit/766a45179996de0a9663d3adc62bffbe95cc3ea4) [#154](https://github.com/npm/eslint-config/pull/154) template-oss-apply (@owlstronaut)
+* [`05b3ee3`](https://github.com/npm/eslint-config/commit/05b3ee3068c27a0e3047e5e0e53c32a840263a26) [#154](https://github.com/npm/eslint-config/pull/154) bumping @npmcli/template-oss from 4.30.0 to 5.1.0 (@owlstronaut)
+* [`9667212`](https://github.com/npm/eslint-config/commit/966721205dc8433fd40ae1007356cb4b11c2950f) [#149](https://github.com/npm/eslint-config/pull/149) bump @npmcli/template-oss from 4.29.0 to 4.30.0 (#149) (@dependabot[bot], @npm-cli-bot)
+
 ## [6.0.1](https://github.com/npm/eslint-config/compare/v6.0.0...v6.0.1) (2025-11-13)
 ### Dependencies
 * [`52da10a`](https://github.com/npm/eslint-config/commit/52da10a73321e3b25904c17d6c2aa1efb73bf311) [#143](https://github.com/npm/eslint-config/pull/143) bump which from 5.0.0 to 6.0.0 (#143) (@dependabot[bot])
